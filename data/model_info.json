@@ -1,0 +1,9 @@
+{
+  "algorithm": "LightGBM",
+  "dataset_size": 886,
+  "feature_count": 21,
+  "mae": 0.3611738148984199,
+  "accuracy_05": 85.77878103837472,
+  "feature_version": "2.1",
+  "trained_at": "2026-08-14 08:01:30"
+}

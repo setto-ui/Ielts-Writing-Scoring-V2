@@ -1,0 +1,35 @@
+{
+  "model": "6JB-MAE",
+  "objective": "regression_l1",
+  "calibrator": "IsotonicRegression-val-190",
+  "test_results": {
+    "mae": 0.749,
+    "w05": 0.55,
+    "w10": 0.801,
+    "bias": 0.099,
+    "n": 191,
+    "groups": {
+      "Low": {
+        "n": 42,
+        "mae": 1.286,
+        "bias": 1.238,
+        "w05": 0.119,
+        "w10": 0.524
+      },
+      "Mid": {
+        "n": 102,
+        "mae": 0.422,
+        "bias": 0.118,
+        "w05": 0.824,
+        "w10": 0.98
+      },
+      "High": {
+        "n": 47,
+        "mae": 0.979,
+        "bias": -0.957,
+        "w05": 0.34,
+        "w10": 0.66
+      }
+    }
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "prompt": "Some people think that children should do housework from a young age. Others believe children should focus on studying. Discuss both views and give your opinion.",
+    "essay": "I think children should study. Study is very important for the future. If children do housework they cannot study good. Many parent want children to study because study make them success in life. Also housework is boring and children dont like it.\n\nSome people say children should do housework but I disagree. Children is too young to do housework. They can break things. It is dangerous for children to cook.\n\nIn conclusion study is better than housework for children.",
+    "band": 4.5,
+    "task_response": 4.5,
+    "coherence": 4.5,
+    "lexical": 4.0,
+    "grammar": 4.5
+  },
+  {
+    "prompt": "In many countries, the gap between the rich and the poor is increasing. What problems does this cause? What solutions can be suggested?",
+    "essay": "The gap between rich and poor is a big problem in many country. It cause many problem for society.\n\nFirst problem is crime. When people are poor they steal things because they need money. Also poor people cannot go to hospital because they have no money. This is very bad.\n\nThe solution is government should give money to poor people. Also government should make more jobs. If there are more jobs people can work and get money.\n\nIn conclusion the gap between rich and poor is bad and government should help.",
+    "band": 5.0,
+    "task_response": 5.0,
+    "coherence": 5.0,
+    "lexical": 4.5,
+    "grammar": 5.0
+  },
+  {
+    "prompt": "Some people believe that technology has made our lives more complicated. To what extent do you agree or disagree?",
+    "essay": "Nowday technology is everywhere. Some people think technology make life complicated but I disagree with this opinion.\n\nFirst technology help us communicate. We can use phone to call friend and family. Before technology people have to write letter and wait long time. Now we can send message in one second. This make life more easy.\n\nSecond technology help in education. Student can learn from internet. There are many website for learning. Also teacher can use computer to teach better.\n\nHowever some people say technology is complicated because old people cannot use computer. This is true but young people can help them learn.\n\nIn conclusion technology make life easier not complicated.",
+    "band": 5.0,
+    "task_response": 5.0,
+    "coherence": 5.5,
+    "lexical": 5.0,
+    "grammar": 4.5
+  },
+  {
+    "prompt": "Some people think that the best way to reduce crime is to give longer prison sentences. Others believe there are better ways to reduce crime. Discuss both views and give your opinion.",
+    "essay": "Crime is a serious issue in modern society, and there are different opinions about how to reduce it. Some people believe that longer prison sentences are the most effective method, while others argue that there are alternative approaches.\n\nOn the one hand, supporters of longer prison sentences argue that harsh punishments deter people from committing crimes. When people know that they will spend many years in prison, they may think twice before breaking the law. Additionally, keeping criminals in prison for longer periods keeps society safer.\n\nOn the other hand, other people believe that there are more effective ways to reduce crime. For example, improving education can help people find legitimate employment and reduce the temptation to commit crimes. Furthermore, rehabilitation programs can help criminals learn new skills and reintegrate into society.\n\nIn my opinion, a combination of both approaches is the best solution. While prison sentences are necessary for serious crimes, investing in education and rehabilitation programs can address the root causes of criminal behaviour.\n\nIn conclusion, both approaches have merits, and a balanced strategy is likely to be the most effective way to reduce crime in society.",
+    "band": 6.0,
+    "task_response": 6.0,
+    "coherence": 6.5,
+    "lexical": 6.0,
+    "grammar": 5.5
+  },
+  {
+    "prompt": "Many people believe that international tourism is a bad thing for their country. What are the reasons for this? What can be done to change this negative attitude?",
+    "essay": "International tourism has grown significantly in recent years, and while it brings economic benefits, some people view it negatively. This essay will examine the reasons for this attitude and suggest ways to change it.\n\nThere are several reasons why people may have a negative view of international tourism. Firstly, large numbers of tourists can damage local environments. Popular tourist destinations often suffer from pollution, overcrowding, and the destruction of natural habitats. Secondly, tourism can lead to cultural erosion. When local traditions are commercialised to attract tourists, the authentic culture may be lost. Finally, the economic benefits of tourism are not always distributed fairly, with large corporations often benefiting more than local businesses.\n\nTo change these negative attitudes, several measures can be taken. Governments should implement regulations to protect the environment and limit the number of tourists in sensitive areas. Additionally, promoting sustainable tourism practices can help minimise the negative impacts. Furthermore, efforts should be made to ensure that local communities benefit directly from tourism through supporting local businesses.\n\nIn conclusion, while there are valid reasons for negative attitudes towards international tourism, practical solutions can help address these concerns and create a more positive relationship between tourism and local communities.",
+    "band": 6.5,
+    "task_response": 6.5,
+    "coherence": 7.0,
+    "lexical": 6.5,
+    "grammar": 6.0
+  },
+  {
+    "prompt": "Some people think that parents should teach children how to be good members of society. Others believe that school is the best place to learn this. Discuss both views and give your own opinion.",
+    "essay": "The question of whether parents or schools should be primarily responsible for teaching children social values is a subject of considerable debate. Both institutions play crucial roles in a child's development, and this essay will examine both perspectives before presenting my own view.\n\nAdvocates of parental responsibility argue that the family is the first social unit a child experiences. Parents serve as role models, and children naturally imitate their behaviour. For instance, when parents demonstrate honesty and respect in their daily interactions, children are likely to adopt these values. Moreover, the emotional bond between parents and children creates a trusting environment where moral lessons can be effectively communicated.\n\nConversely, proponents of school-based social education highlight several advantages. Schools provide a structured environment where children interact with peers from diverse backgrounds. This exposure helps children develop tolerance, cooperation, and conflict resolution skills. Additionally, trained teachers can deliver comprehensive programmes on citizenship, ethics, and community responsibility.\n\nIn my opinion, both parents and schools should share this responsibility. Parents lay the foundation of social values during the early years, while schools reinforce and expand upon these values through formal education and social interaction.\n\nTo conclude, the most effective approach combines parental guidance with school-based programmes, ensuring that children receive consistent messages about social responsibility from multiple sources.",
+    "band": 7.0,
+    "task_response": 7.0,
+    "coherence": 7.0,
+    "lexical": 7.0,
+    "grammar": 6.5
+  },
+  {
+    "prompt": "In many countries, the amount of household waste is increasing. What are the causes of this? What can governments do to help reduce the amount of household waste?",
+    "essay": "The escalating volume of household waste has become a pressing environmental concern across the globe. This essay will analyse the underlying causes of this trend and propose governmental measures to mitigate the problem.\n\nSeveral factors contribute to the increasing generation of household waste. The proliferation of consumer culture encourages people to purchase more goods than they need, many of which are designed with built-in obsolescence. Furthermore, the widespread use of single-use packaging, particularly plastics, significantly adds to waste volumes. Another contributing factor is the lack of awareness among consumers about waste reduction strategies such as recycling and composting.\n\nGovernments can implement a range of strategies to address this issue. Firstly, they could introduce legislation requiring manufacturers to use sustainable packaging materials and design products for longevity. Tax incentives could be offered to companies that adopt environmentally responsible practices. Secondly, investing in comprehensive recycling infrastructure would make it easier for households to separate and recycle waste. Additionally, public awareness campaigns could educate citizens about the environmental impact of excessive waste and promote sustainable consumption habits.\n\nMoreover, governments could implement a pay-as-you-throw system, where households are charged based on the amount of non-recyclable waste they produce. This financial incentive has proven effective in countries such as South Korea and Switzerland.\n\nIn conclusion, while the increase in household waste is driven by consumer culture and inadequate infrastructure, governments have numerous tools at their disposal to reverse this trend through legislation, investment, and education.",
+    "band": 7.5,
+    "task_response": 7.5,
+    "coherence": 7.5,
+    "lexical": 7.5,
+    "grammar": 7.0
+  },
+  {
+    "prompt": "Some people think that governments should spend money on railways rather than roads. To what extent do you agree or disagree?",
+    "essay": "The allocation of public funds between railway and road infrastructure is a topic of significant debate. While both modes of transport serve essential functions, I firmly believe that prioritising investment in railways offers greater long-term benefits for society.\n\nRailway systems provide substantial environmental advantages compared to road transport. Trains are significantly more energy-efficient per passenger kilometre, producing considerably lower carbon emissions than private vehicles. As governments worldwide strive to meet their climate commitments under the Paris Agreement, expanding rail networks represents a pragmatic strategy for reducing the transport sector's carbon footprint. Furthermore, modern high-speed rail services can effectively compete with short-haul aviation, thereby reducing emissions from air travel.\n\nFrom an economic perspective, railways stimulate regional development by connecting peripheral areas to economic centres. The development of high-speed rail links in countries such as Japan and France has demonstrated how improved connectivity can revitalise regional economies, distribute economic activity more equitably, and reduce the urban-rural divide. Additionally, well-functioning public transport systems reduce traffic congestion, which costs economies billions annually in lost productivity.\n\nHowever, it would be imprudent to completely neglect road infrastructure. Rural communities often depend on road networks for essential services, and freight transport relies heavily on road connectivity for last-mile delivery. Therefore, a balanced approach that prioritises rail investment while maintaining adequate road infrastructure would be most beneficial.\n\nIn conclusion, while roads remain important, the environmental, economic, and social benefits of railway investment make a compelling case for governments to prioritise rail infrastructure in their transport spending.",
+    "band": 8.0,
+    "task_response": 8.0,
+    "coherence": 8.0,
+    "lexical": 8.0,
+    "grammar": 7.5
+  },
+  {
+    "prompt": "The threat of nuclear weapons maintains world peace. Nuclear power provides cheap and clean energy. The benefits of nuclear technology far outweigh the disadvantages. To what extent do you agree or disagree?",
+    "essay": "Nuclear technology is good and bad. I think nuclear is dangerous.\n\nNuclear weapon can destroy whole city. Many people die. It is not good for peace because country are scared. If one country has nuclear weapon other country want nuclear weapon too. This is dangerous.\n\nNuclear power make electricity but it is not clean. Nuclear waste is very dangerous. If nuclear power plant explode like Chernobyl many people get sick. This is very bad.\n\nSo I think nuclear technology is more bad than good. Government should stop nuclear.",
+    "band": 4.0,
+    "task_response": 4.0,
+    "coherence": 4.0,
+    "lexical": 4.0,
+    "grammar": 4.0
+  },
+  {
+    "prompt": "In some countries young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+    "essay": "Taking a gap year between high school and university has become increasingly popular. This essay discuss advantages and disadvantages of this trend.\n\nThere are some advantages of taking gap year. First, young people can get work experience. This help them understand what job they want in the future. Second, if they travel they can learn about different cultures and become more independent person. Third, after one year break students feel more motivated to study.\n\nHowever there are also disadvantages. Some students may lose their study habits during the gap year. When they return to university it can be difficult to focus on academic work again. Also, not all families can afford to support their children for an extra year without income. Another problem is that friends who went directly to university may graduate earlier.\n\nIn my view, the advantages of taking a gap year outweigh the disadvantages. Young people gain valuable life experience that helps them in university and their future careers.\n\nTo sum up, while there are some risks, a gap year can be very beneficial if planned carefully.",
+    "band": 5.5,
+    "task_response": 5.5,
+    "coherence": 6.0,
+    "lexical": 5.5,
+    "grammar": 5.0
+  },
+  {
+    "prompt": "Nowadays more people are choosing to socialise online rather than face to face. Is this a positive or negative development?",
+    "essay": "The digital revolution has fundamentally altered the way people socialise. While online communication offers undeniable convenience, I believe that the growing preference for virtual interaction over face-to-face contact is predominantly a negative development.\n\nAdmittedly, online socialising provides certain advantages. Social media platforms enable people to maintain relationships across geographical boundaries, which is particularly valuable for those who have relocated for work or study. Moreover, introverted individuals may find it easier to express themselves through written communication, thereby expanding their social circles.\n\nNevertheless, the drawbacks of excessive online socialisation are considerable. Research has consistently demonstrated a correlation between heavy social media use and increased rates of anxiety, depression, and loneliness among young people. The superficial nature of online interactions often fails to provide the emotional depth and support that face-to-face relationships offer. Non-verbal communication cues, which constitute a significant proportion of human interaction, are largely absent in digital exchanges.\n\nFurthermore, the prioritisation of online socialising can erode community cohesion. When neighbours communicate through screens rather than engaging in person, the social fabric that underpins strong communities weakens. This phenomenon has been observed in numerous studies examining the relationship between technology use and civic participation.\n\nIn conclusion, while online socialising has its merits in facilitating long-distance communication, the psychological and social consequences of replacing face-to-face interaction with virtual alternatives make this a largely negative development that warrants careful attention from both individuals and policymakers.",
+    "band": 7.5,
+    "task_response": 7.5,
+    "coherence": 7.5,
+    "lexical": 8.0,
+    "grammar": 7.0
+  },
+  {
+    "prompt": "Many people say that we have too many examinations in our education system. Do you agree or disagree?",
+    "essay": "Education system have too many exam. I agree with this because exam make student stress.\n\nStudent study for exam all the time. They dont have time for play or hobby. This make them tired and not happy. Some student get very sick because of exam stress.\n\nAlso exam is not fair. Some student are good at exam but some student are not good at exam even if they are smart. Exam only test memory not real knowledge.\n\nGovernment should reduce exam and use other way to test student like project or presentation.\n\nIn conclusion too many exam is bad for student health and education quality.",
+    "band": 4.5,
+    "task_response": 5.0,
+    "coherence": 4.5,
+    "lexical": 4.0,
+    "grammar": 4.5
+  },
+  {
+    "prompt": "Some people think that the government should provide free university education. Others believe students should pay their own fees. Discuss both views and give your opinion.",
+    "essay": "Whether university education should be free or paid is a controversial topic. There are strong arguments on both side of this debate.\n\nSupporter of free education argue that everyone deserve equal opportunity to study at university. In many developing countries, talented students from poor families cannot afford tuition fees. If government provide free education, these students can contribute to economic development. For example, countries like Germany and Norway offer free university education and have highly educated workforces.\n\nOn the other hand, opponents believe that students should pay their own fees. They argue that free education puts a heavy burden on taxpayers. Furthermore, students who pay for their education may value it more and study harder. Private funding can also improve the quality of universities through better facilities and resources.\n\nI personally believe that a compromise is the best approach. Government should provide subsidised education with scholarships for students from disadvantaged backgrounds. This ensures equal access while maintaining financial sustainability.\n\nIn conclusion, while both perspectives have valid points, a system that combines government support with reasonable student contributions appears to be the most practical solution.",
+    "band": 6.0,
+    "task_response": 6.0,
+    "coherence": 6.0,
+    "lexical": 6.0,
+    "grammar": 5.5
+  },
+  {
+    "prompt": "The best way to solve the world's environmental problems is to increase the cost of fuel. Do you agree or disagree?",
+    "essay": "It is frequently argued that raising fuel prices represents the optimal solution to global environmental challenges. While I acknowledge that this approach could yield some benefits, I contend that it is insufficient as a standalone strategy and must be complemented by more comprehensive measures.\n\nIncreasing fuel costs can certainly incentivise behavioural change. Higher petrol prices may encourage commuters to utilise public transport, adopt carpooling arrangements, or transition to electric vehicles. Similarly, elevated energy costs could motivate businesses and households to invest in energy-efficient technologies and renewable energy sources. The effectiveness of price signals in modifying consumer behaviour has been well documented in economic literature.\n\nHowever, relying solely on fuel price increases presents significant drawbacks. Such measures disproportionately affect lower-income households who spend a larger proportion of their earnings on energy and transport. This regressive impact could exacerbate social inequality without necessarily achieving substantial environmental improvement, as wealthier individuals may simply absorb the increased costs without modifying their behaviour. Furthermore, in regions with inadequate public transport infrastructure, higher fuel prices may impose hardship without offering viable alternatives.\n\nA more effective approach would encompass a range of complementary strategies. Government investment in renewable energy infrastructure, stringent emissions regulations for industry, and comprehensive public education campaigns would address environmental issues more holistically. Carbon taxation revenue could be redistributed to fund green initiatives and offset the impact on vulnerable communities.\n\nIn conclusion, while fuel price increases can contribute to environmental protection, they should form just one component of a multifaceted strategy that addresses the complexity of global environmental challenges without disproportionately burdening disadvantaged populations.",
+    "band": 8.0,
+    "task_response": 8.0,
+    "coherence": 8.5,
+    "lexical": 8.0,
+    "grammar": 7.5
+  },
+  {
+    "prompt": "Some people believe that unpaid community service should be a compulsory part of high school programmes. To what extent do you agree or disagree?",
+    "essay": "I think community service is good for high school student. Student should help community.\n\nCommunity service teach student many things. They learn how to work with people. They learn responsibility. This is important for their future. For example student can help clean park or visit old people in hospital.\n\nBut some student dont want to do community service. They say it take too much time. They need time for study. I understand this but I still think community service is important.\n\nSo government should make community service compulsory. Student will benefit from this experience.",
+    "band": 4.5,
+    "task_response": 4.5,
+    "coherence": 4.5,
+    "lexical": 4.0,
+    "grammar": 4.0
+  },
+  {
+    "prompt": "In many cities, planners tend to arrange shops, schools, offices and homes in specific areas and separate them from each other. Do you think the advantages outweigh the disadvantages?",
+    "essay": "Urban planning that separates different zones for residential, commercial, and educational purposes has been the dominant approach in many cities around the world. While this method offers some benefits, I believe that its disadvantages are more significant in the long term.\n\nThere are clear advantages to zoning. Separating industrial areas from residential neighborhoods reduces noise and air pollution for residents. It also allows city planners to design infrastructure more efficiently, as each zone has specific requirements for roads, utilities, and services. For instance, commercial districts can be designed with wider roads and more parking facilities to accommodate business traffic.\n\nHowever, the disadvantages of strict zoning are considerable. The most significant problem is increased dependence on private vehicles. When homes, workplaces, and shops are located in different parts of the city, residents must drive between them, contributing to traffic congestion and carbon emissions. This also affects quality of life, as people spend more time commuting rather than spending time with family or pursuing leisure activities.\n\nFurthermore, segregated zoning can create areas that become deserted outside business hours. Commercial districts that empty out in the evening can become unsafe, while residential areas may lack the vibrancy that comes from mixed-use development. Cities like Barcelona and Amsterdam have demonstrated that mixed-use planning can create more dynamic and livable urban environments.\n\nIn conclusion, although zoning has practical benefits for urban management, the social and environmental costs of separating urban functions make mixed-use development a more desirable approach for creating sustainable and livable cities.",
+    "band": 7.0,
+    "task_response": 7.0,
+    "coherence": 7.0,
+    "lexical": 7.0,
+    "grammar": 7.0
+  },
+  {
+    "prompt": "Many people think that cooking is an important skill for young people to learn. Others disagree, saying that it is a waste of time. Discuss both views and give your own opinion.",
+    "essay": "Cooking is important skill. Some people agree some disagree. I will discuss both view.\n\nPeople who think cooking is important say it help young people be independent. When young people can cook they dont need to eat fast food. Cooking at home is more healthy and save money. Also cooking can be fun activity for family.\n\nHowever other people think cooking is waste of time. They say young people should study more important subject like math and science. Also now there are many restaurant and delivery service so people dont need to cook. Some people also say cooking take too long time.\n\nI think cooking is important because health is important. If young people eat fast food everyday they will get sick. Learning to cook is easy and useful.\n\nIn conclusion I believe cooking is important skill that all young people should learn.",
+    "band": 5.0,
+    "task_response": 5.5,
+    "coherence": 5.0,
+    "lexical": 4.5,
+    "grammar": 5.0
+  },
+  {
+    "prompt": "Some people think that governments should invest in public services rather than wasting money on the arts. To what extent do you agree or disagree?",
+    "essay": "The allocation of government funding between essential public services and the arts is a contentious issue that merits careful consideration. While I recognise the primacy of fundamental services such as healthcare and education, I firmly believe that investment in the arts is equally vital for the holistic development of society.\n\nUnquestionably, public services form the bedrock of a functioning society. Adequate healthcare provision ensures the physical well-being of citizens, while quality education equips the populace with the knowledge and skills necessary for economic productivity. Infrastructure development, including transport networks and utilities, facilitates daily life and commerce. Without sufficient investment in these areas, the basic needs of citizens remain unmet.\n\nNevertheless, dismissing arts funding as wasteful demonstrates a fundamental misunderstanding of its societal value. The arts sector contributes significantly to the economy through employment, tourism revenue, and the creative industries. The United Kingdom's creative sector, for example, generates over one hundred billion pounds annually and employs millions of people. Furthermore, the arts play an indispensable role in fostering critical thinking, emotional intelligence, and cultural identity. Communities with vibrant cultural scenes tend to exhibit greater social cohesion and higher levels of well-being.\n\nMoreover, the dichotomy between public services and the arts is largely artificial. Arts programmes in hospitals have been shown to accelerate patient recovery, while arts education enhances academic performance in other subjects. The integration of artistic thinking into scientific and technological innovation, often termed STEAM, has yielded remarkable advances.\n\nIn conclusion, rather than viewing public services and the arts as competing for limited resources, governments should recognise their complementary nature and ensure adequate funding for both domains.",
+    "band": 8.5,
+    "task_response": 8.5,
+    "coherence": 8.5,
+    "lexical": 9.0,
+    "grammar": 8.0
+  },
+  {
+    "prompt": "People are living longer now. Some think this is a positive development, while others argue it creates problems for society. Discuss both views and give your opinion.",
+    "essay": "People living longer is both good and bad. In this essay I will discuss both sides.\n\nThe good thing about living longer is that people can enjoy life more. Old people can spend time with grandchildren and travel. Also older people have a lot of experience and wisdom that they can share with younger generation. Medical advances that help people live longer also improve quality of life.\n\nHowever, longer life also creates problems. The biggest problem is the cost of healthcare and pensions. When people live longer, governments need to spend more money on healthcare for elderly people. Also, there are more retired people and fewer workers, which puts pressure on the economy. Another issue is that older people sometimes need special care which families cannot provide.\n\nIn my opinion the advantages of longer life outweigh the disadvantages. Governments should plan better for aging population by encouraging people to save for retirement and investing in healthcare system.\n\nTo conclude, while living longer creates some economic challenges, the benefits of increased life expectancy make it a positive development overall.",
+    "band": 5.5,
+    "task_response": 5.5,
+    "coherence": 6.0,
+    "lexical": 5.5,
+    "grammar": 5.5
+  },
+  {
+    "prompt": "Some people believe that it is best to accept a bad situation, such as an unsatisfying job or shortage of money. Others argue that it is better to try and improve such situations. Discuss both views and give your own opinion.",
+    "essay": "The question of whether individuals should passively accept unfavourable circumstances or actively seek to improve them is a matter of considerable philosophical and practical significance. This essay will examine both perspectives before presenting my own position.\n\nThose who advocate acceptance often draw upon philosophical traditions that emphasise inner peace and contentment. From this perspective, constantly striving for improvement can lead to perpetual dissatisfaction, as individuals may never feel their situation is adequate. Moreover, acceptance can foster resilience and emotional stability, enabling individuals to maintain their well-being even in challenging circumstances. In certain situations, such as economic recessions or structural unemployment, acceptance may also be the most rational response when external factors are genuinely beyond one's control.\n\nConversely, there are compelling arguments in favour of actively pursuing improvement. Human progress throughout history has been driven by individuals and communities refusing to accept the status quo. The scientific revolution, civil rights movements, and technological innovation all emerged from a fundamental dissatisfaction with existing conditions. On a personal level, research in psychology suggests that individuals who adopt a proactive approach to problem-solving tend to experience greater life satisfaction and mental health outcomes compared to those who remain passive.\n\nI maintain that while acceptance has its place in managing emotional responses to situations beyond our control, the general disposition towards improvement is more conducive to personal growth and societal advancement. The key lies in developing the wisdom to distinguish between situations that warrant acceptance and those that demand action.\n\nIn conclusion, a nuanced approach that combines selective acceptance with proactive improvement represents the most balanced and effective philosophy for navigating life's challenges.",
+    "band": 8.0,
+    "task_response": 8.0,
+    "coherence": 8.0,
+    "lexical": 8.5,
+    "grammar": 8.0
+  },
+  {
+    "prompt": "Many people do not feel safe when they are at home or going out. What are the causes? What measures can be taken to address this issue?",
+    "essay": "Safety is very important for everyone. Many people feel not safe at home and outside. This is a big problem.\n\nThe main cause is crime. There are many thieves and bad people. Also police is not enough to protect everyone. Another cause is poor street lighting. When streets are dark people feel scared.\n\nThe government can do many things. First they should put more police on the street. Second they should install CCTV camera everywhere. Third they should make street lights brighter.\n\nAlso people should lock their doors and windows. They should be careful when going out at night.\n\nIn conclusion safety is important and government and people should work together to make society safer.",
+    "band": 4.5,
+    "task_response": 4.5,
+    "coherence": 5.0,
+    "lexical": 4.0,
+    "grammar": 4.5
+  },
+  {
+    "prompt": "Nowadays many people choose to be self-employed rather than work for a company or organisation. Why might this be the case? What could be the disadvantages of being self-employed?",
+    "essay": "The trend towards self-employment has accelerated in recent years, driven by technological advancement and shifting attitudes towards work. This essay will explore the motivations behind this choice and examine its potential drawbacks.\n\nSeveral factors explain the growing appeal of self-employment. Perhaps the most significant is the desire for autonomy and flexibility. Self-employed individuals can determine their own working hours, choose projects that align with their interests, and work from any location. The proliferation of digital platforms and remote working technologies has made this lifestyle increasingly accessible. Additionally, many people are motivated by the potential for higher earnings, as self-employed professionals can often charge premium rates for specialised expertise without the overhead costs associated with large organisations.\n\nAnother contributing factor is disillusionment with traditional corporate culture. Many workers feel that hierarchical structures stifle creativity and limit career progression. The recent pandemic further catalysed this shift, as millions of workers experienced remote work and questioned the necessity of conventional office-based employment.\n\nHowever, self-employment carries significant disadvantages. Financial instability is perhaps the most prominent concern, as income can be irregular and unpredictable. Unlike salaried employees, self-employed individuals lack guaranteed monthly income, paid leave, and employer-contributed pension schemes. Furthermore, the absence of workplace social interaction can lead to isolation and mental health challenges. Self-employed workers must also manage administrative responsibilities such as taxation, accounting, and marketing, which can be time-consuming and stressful.\n\nIn conclusion, while self-employment offers attractive benefits in terms of freedom and earning potential, individuals considering this path should carefully weigh these advantages against the financial insecurity and administrative burden it entails.",
+    "band": 7.5,
+    "task_response": 7.5,
+    "coherence": 7.5,
+    "lexical": 7.5,
+    "grammar": 7.5
+  },
+  {
+    "prompt": "Some people think that sports play an important role in society. Others think they are just a form of leisure. Discuss both views and give your opinion.",
+    "essay": "Sports is popular all over the world. Some people think sport is important for society but others think it is just for fun.\n\nSports is important because it keep people healthy. When people play sports they exercise and this is good for body. Also sports bring people together. For example, when national team play in World Cup, everyone support the team and feel united. Sports also teach important value like teamwork and discipline.\n\nHowever some people think sports is just leisure activity. They say sports is only entertainment like watching movie. Professional sports also have problem like corruption and doping. Some athlete earn too much money while teacher and doctor earn less.\n\nI believe sports is very important for society because of health benefit and social value. Even if there are some problem, sports overall is positive.\n\nIn conclusion, sports play important role in society and should be promoted by government and schools.",
+    "band": 5.5,
+    "task_response": 5.5,
+    "coherence": 5.5,
+    "lexical": 5.0,
+    "grammar": 5.0
+  },
+  {
+    "prompt": "Some people say that advertising is extremely successful at persuading us to buy things. Other people think that advertising is so common that we no longer pay attention to it. Discuss both views and give your own opinion.",
+    "essay": "The effectiveness of advertising in contemporary consumer culture is a subject that elicits divergent opinions. While some contend that advertising remains a powerful tool of persuasion, others argue that its ubiquity has rendered it ineffective. This essay will evaluate both viewpoints before presenting my assessment.\n\nThere is substantial evidence supporting the view that advertising continues to exert considerable influence on consumer behaviour. Modern advertising employs sophisticated psychological techniques, leveraging data analytics and artificial intelligence to deliver highly personalised messages. Social media advertising, in particular, has proven remarkably effective at targeting specific demographics based on browsing history, preferences, and social connections. The astronomical sums that corporations invest in advertising, often exceeding billions annually, suggest that businesses themselves believe in its efficacy. Research consistently demonstrates that brand recognition, largely built through advertising, significantly influences purchasing decisions.\n\nConversely, there are valid arguments that advertising saturation has diminished its impact. The average consumer is estimated to encounter thousands of advertisements daily, leading to what psychologists term advertising fatigue. The proliferation of ad-blocking technology indicates active consumer resistance, with studies showing that a significant proportion of internet users employ such tools. Moreover, younger consumers, particularly Generation Z, tend to be more sceptical of traditional advertising, placing greater trust in peer recommendations and authentic content.\n\nIn my assessment, advertising has evolved rather than diminished in effectiveness. While consumers may consciously dismiss traditional formats, the most successful modern advertising operates subtly through influencer partnerships, native content, and experiential marketing that consumers often do not recognise as advertising.\n\nIn conclusion, far from becoming obsolete, advertising has adapted to consumer resistance by adopting increasingly sophisticated and subtle strategies that continue to shape purchasing behaviour.",
+    "band": 8.5,
+    "task_response": 8.5,
+    "coherence": 8.5,
+    "lexical": 8.5,
+    "grammar": 8.0
+  },
+  {
+    "prompt": "It is important for children to learn the difference between right and wrong at an early age. Punishment is necessary to help them learn this distinction. To what extent do you agree or disagree?",
+    "essay": "Children need to learn right and wrong. I agree that punishment help children learn.\n\nWhen children do something wrong parent should punish them. For example if child hit other child parent should tell them it is wrong and give punishment. This way child learn not to do it again.\n\nBut punishment should not be too hard. Parent should not hit children. They can take away toy or not let them watch TV. This kind of punishment is okay.\n\nSome people say we should not punish children. They think we should just talk to them. But I think some children dont listen if there is no punishment.\n\nIn conclusion punishment is necessary but it should be fair and not violent.",
+    "band": 5.0,
+    "task_response": 5.0,
+    "coherence": 5.0,
+    "lexical": 4.5,
+    "grammar": 5.0
+  },
+  {
+    "prompt": "Countries are becoming more and more similar because people are able to buy the same products anywhere in the world. Do you think this is a positive or negative development?",
+    "essay": "The globalisation of consumer markets has led to an unprecedented homogenisation of products and lifestyles across national boundaries. This essay will argue that while this trend offers certain conveniences, its overall impact is predominantly negative due to the erosion of cultural diversity and local economic structures.\n\nThe availability of identical products worldwide undeniably provides practical benefits. Consumers in developing nations gain access to advanced technologies and quality goods that may not be available from local manufacturers. International brands often adhere to higher quality and safety standards, benefiting consumers who previously had limited options. Furthermore, global trade creates economic interconnections that can foster international cooperation and mutual understanding.\n\nHowever, the negative consequences of this homogenisation are more profound and far-reaching. The dominance of multinational corporations threatens the survival of local businesses and traditional industries. When global chains establish themselves in developing countries, they frequently displace local artisans and small-scale producers who cannot compete on price or marketing. This economic disruption can devastate communities whose livelihoods depend on traditional crafts and local commerce.\n\nPerhaps more significantly, the standardisation of consumer products contributes to the erosion of cultural identity. Traditional foods, clothing, and crafts that reflect centuries of cultural evolution are increasingly replaced by mass-produced alternatives. The proliferation of identical shopping centres, fast-food chains, and fashion brands in cities worldwide creates a monotonous urban landscape that diminishes the unique character of different societies.\n\nIn conclusion, while the global availability of products offers short-term consumer benefits, the long-term costs to cultural diversity, local economies, and social identity render this development predominantly negative. Governments should actively protect cultural heritage and support local businesses to mitigate these effects.",
+    "band": 7.5,
+    "task_response": 7.5,
+    "coherence": 8.0,
+    "lexical": 8.0,
+    "grammar": 7.0
+  }
+]

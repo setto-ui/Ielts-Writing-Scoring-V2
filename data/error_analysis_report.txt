@@ -1,0 +1,710 @@
+IELTS Writing Scorer v2 — Error Analysis Report
+================================================
+
+Total processed samples: 1435
+MAE Before Constraints: 0.4233 | After: 0.4258
+Accuracy (<=0.5) Before: 80.84% | After: 81.05%
+
+TOP 50 LARGEST ERROR SAMPLES DETAIL
+-----------------------------------
+
+Rank 1 | Sample Index: 919 | True Band: 1.0 | Pred Band: 4.0 (Before constraint: 4.0) | Error: 3.0
+  Essay Length (words): 279
+  Topic Similarity: 0.475
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 4.00 -> Constrained 4.00
+    - lexical        : ML 0.00 -> Gated 4.57 -> Constrained 4.00
+    - grammar        : ML 0.00 -> Gated 4.00 -> Constrained 4.00
+    - coherence      : ML 0.00 -> Gated 4.27 -> Constrained 4.00
+  Gates fired: []
+  Constraints applied: ['penalty:TR_weak→CC-1.20', 'penalty:TR_weak→LR-1.20', 'penalty:TR_weak→GRA-1.20', 'penalty:GRA_weak→LR-1.76', 'penalty:GRA_weak→CC-1.76', 'penalty:LR_weak→TR-2.71']
+  Essay Clip: For centuries, artworks have been titled  'Work of Art' based on their extraordinary qualities. However, some people argue that nowadays, the standards are decreasing and the labelling of substandard ...
+--------------------------------------------------------------------------------
+
+Rank 2 | Sample Index: 612 | True Band: 8.5 | Pred Band: 6.0 (Before constraint: 7.0) | Error: 2.5
+  Essay Length (words): 341
+  Topic Similarity: 0.842
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.69 -> Constrained 7.29
+    - grammar        : ML 0.00 -> Gated 7.25 -> Constrained 6.85
+    - coherence      : ML 0.00 -> Gated 6.47 -> Constrained 6.07
+  Gates fired: ['gate:low_task_coverage_raw(0.00<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Champions have been heralded across cultures and religions for centuries. Hercules from Greek mythology and Samson from the Bible were known for their strength. Hermes, the messenger of the Greek gods...
+--------------------------------------------------------------------------------
+
+Rank 3 | Sample Index: 766 | True Band: 8.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 2.5
+  Essay Length (words): 253
+  Topic Similarity: 0.883
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 6.55 -> Constrained 6.15
+    - grammar        : ML 0.00 -> Gated 6.72 -> Constrained 6.32
+    - coherence      : ML 0.00 -> Gated 6.89 -> Constrained 6.49
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Some individuals believe that playing outside has a more positive effect on children's development rather than playing computer games. I share the idea that being involved in outdoor activities is mor...
+--------------------------------------------------------------------------------
+
+Rank 4 | Sample Index: 104 | True Band: 8.5 | Pred Band: 6.5 (Before constraint: 7.0) | Error: 2.0
+  Essay Length (words): 379
+  Topic Similarity: 0.882
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 6.93 -> Constrained 6.53
+    - grammar        : ML 0.00 -> Gated 7.47 -> Constrained 7.07
+    - coherence      : ML 0.00 -> Gated 7.83 -> Constrained 7.43
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: There is currently a contentious argument that using English as an international language will always have more benefits than drawbacks. Despite the use of English, which has been spreading globally, ...
+--------------------------------------------------------------------------------
+
+Rank 5 | Sample Index: 516 | True Band: 9.0 | Pred Band: 7.0 (Before constraint: 7.5) | Error: 2.0
+  Essay Length (words): 389
+  Topic Similarity: 0.770
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.72 -> Constrained 7.32
+    - grammar        : ML 0.00 -> Gated 8.01 -> Constrained 7.61
+    - coherence      : ML 0.00 -> Gated 7.28 -> Constrained 6.88
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Many people believe it may be advisable for couples to live together before getting married, as it may lead to a smoother relationship after they have married. I tend to agree with such opinions, as I...
+--------------------------------------------------------------------------------
+
+Rank 6 | Sample Index: 650 | True Band: 8.5 | Pred Band: 6.5 (Before constraint: 7.0) | Error: 2.0
+  Essay Length (words): 288
+  Topic Similarity: 0.782
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.46 -> Constrained 7.06
+    - grammar        : ML 0.00 -> Gated 7.09 -> Constrained 6.69
+    - coherence      : ML 0.00 -> Gated 7.57 -> Constrained 7.17
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: An ideal society where people co-exist in perfect harmony and respect, regardless of race, beliefs, or gender, is a universally desired idea. Although striving for these ideals would benefit the indiv...
+--------------------------------------------------------------------------------
+
+Rank 7 | Sample Index: 1303 | True Band: 9.0 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 2.0
+  Essay Length (words): 261
+  Topic Similarity: 0.893
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 7.51 -> Constrained 7.51
+    - lexical        : ML 0.00 -> Gated 6.85 -> Constrained 6.85
+    - grammar        : ML 0.00 -> Gated 7.15 -> Constrained 7.15
+    - coherence      : ML 0.00 -> Gated 5.96 -> Constrained 5.96
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Social media today is extremely significant to a majority of the population, especially the younger generation. Many teenagers find it exceptionally convenient and necessary for communication and ente...
+--------------------------------------------------------------------------------
+
+Rank 8 | Sample Index: 1410 | True Band: 6.0 | Pred Band: 8.0 (Before constraint: 8.0) | Error: 2.0
+  Essay Length (words): 320
+  Topic Similarity: 0.810
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 7.80 -> Constrained 7.80
+    - lexical        : ML 0.00 -> Gated 7.83 -> Constrained 7.83
+    - grammar        : ML 0.00 -> Gated 7.66 -> Constrained 7.66
+    - coherence      : ML 0.00 -> Gated 6.64 -> Constrained 6.64
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Dieting seems to be of our life in this modern society, especially for those who are health conscious. Different people choose different type of dieting methods, trying to achieve what they believe to...
+--------------------------------------------------------------------------------
+
+Rank 9 | Sample Index: 17 | True Band: 8.5 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 209
+  Topic Similarity: 0.820
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.47 -> Constrained 6.47
+    - lexical        : ML 0.00 -> Gated 6.66 -> Constrained 6.66
+    - grammar        : ML 0.00 -> Gated 6.47 -> Constrained 6.47
+    - coherence      : ML 0.00 -> Gated 7.03 -> Constrained 7.03
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Information is presented in two pie charts which compare the amount of time, in percentage, that employees spent on six different activities in a country between 1958 and 2008. Overall, it can be clea...
+--------------------------------------------------------------------------------
+
+Rank 10 | Sample Index: 71 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 189
+  Topic Similarity: 0.848
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.82 -> Constrained 5.82
+    - lexical        : ML 0.00 -> Gated 5.47 -> Constrained 5.47
+    - grammar        : ML 0.00 -> Gated 6.58 -> Constrained 6.58
+    - coherence      : ML 0.00 -> Gated 6.29 -> Constrained 6.29
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: This chart illustrates the proportion of British male and female in different age group buying fruit and vegetables as recommended by the world health organization per day in the year 2006. In general...
+--------------------------------------------------------------------------------
+
+Rank 11 | Sample Index: 124 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 266
+  Topic Similarity: 0.898
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.65 -> Constrained 6.65
+    - lexical        : ML 0.00 -> Gated 5.63 -> Constrained 5.63
+    - grammar        : ML 0.00 -> Gated 6.10 -> Constrained 6.10
+    - coherence      : ML 0.00 -> Gated 5.79 -> Constrained 5.79
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Nowadays, populations are growing all over the world, and increasing the source of food is becoming more important and also being challenging nowadays. One of the most important matters nowadays is ea...
+--------------------------------------------------------------------------------
+
+Rank 12 | Sample Index: 150 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 271
+  Topic Similarity: 0.789
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.62 -> Constrained 7.22
+    - grammar        : ML 0.00 -> Gated 6.79 -> Constrained 6.39
+    - coherence      : ML 0.00 -> Gated 6.77 -> Constrained 6.37
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: In the past decades, the rise of urbanization has brought trends of moving into the cities. While some people believe that the availability of resources and welfare in metropolises can outweigh the un...
+--------------------------------------------------------------------------------
+
+Rank 13 | Sample Index: 183 | True Band: 5.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 150
+  Topic Similarity: 0.883
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.19 -> Constrained 6.19
+    - lexical        : ML 0.00 -> Gated 6.47 -> Constrained 6.47
+    - grammar        : ML 0.00 -> Gated 6.19 -> Constrained 6.19
+    - coherence      : ML 0.00 -> Gated 6.95 -> Constrained 6.95
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: This bar chart descraibe the sales of diffrent brand on phone of the period of 2009, 2011 and 2013. Overall, it can be clearly seen from the chart there is highest and lowest sales between the company...
+--------------------------------------------------------------------------------
+
+Rank 14 | Sample Index: 315 | True Band: 8.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 211
+  Topic Similarity: 0.827
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.33 -> Constrained 6.33
+    - lexical        : ML 0.00 -> Gated 5.90 -> Constrained 5.90
+    - grammar        : ML 0.00 -> Gated 6.76 -> Constrained 6.76
+    - coherence      : ML 0.00 -> Gated 6.96 -> Constrained 6.96
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The bar chart illustrates the quantity of visits by the thousands paid to a community website within the first two years of use. Overall, there is a greater upward trend from the second year of use co...
+--------------------------------------------------------------------------------
+
+Rank 15 | Sample Index: 323 | True Band: 8.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 162
+  Topic Similarity: 0.820
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.82 -> Constrained 5.82
+    - lexical        : ML 0.00 -> Gated 7.25 -> Constrained 7.25
+    - grammar        : ML 0.00 -> Gated 6.58 -> Constrained 6.58
+    - coherence      : ML 0.00 -> Gated 6.19 -> Constrained 6.19
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The given diagram illustrates how a storage area can be created using concrete canvas. Overall, the process involves in eight different steps which are manufacturing, delivering, unwrapping, spreading...
+--------------------------------------------------------------------------------
+
+Rank 16 | Sample Index: 324 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 255
+  Topic Similarity: 0.848
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.26 -> Constrained 6.86
+    - grammar        : ML 0.00 -> Gated 6.72 -> Constrained 6.32
+    - coherence      : ML 0.00 -> Gated 7.31 -> Constrained 6.91
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: It is argued by some individuals that men aren't skilled enough as women in regard to leadership. This essay disagrees with the given statement as leadership skills are not depending on gender but are...
+--------------------------------------------------------------------------------
+
+Rank 17 | Sample Index: 340 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 309
+  Topic Similarity: 0.830
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.81 -> Constrained 6.81
+    - lexical        : ML 0.00 -> Gated 5.77 -> Constrained 5.77
+    - grammar        : ML 0.00 -> Gated 6.05 -> Constrained 6.05
+    - coherence      : ML 0.00 -> Gated 6.09 -> Constrained 6.09
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: There is no argument that history is something related to the past generation which has never been seen by the present generation. which let some people think that history has nothing to teach us or h...
+--------------------------------------------------------------------------------
+
+Rank 18 | Sample Index: 398 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 283
+  Topic Similarity: 0.824
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.25 -> Constrained 6.85
+    - grammar        : ML 0.00 -> Gated 6.53 -> Constrained 6.13
+    - coherence      : ML 0.00 -> Gated 7.07 -> Constrained 6.67
+  Gates fired: ['gate:low_task_coverage_raw(0.00<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: International sports events are one of the most trendy interactions at any hosting country. Depending on the hoster, the events could represent a virtue or a slip. This dependence is associated with t...
+--------------------------------------------------------------------------------
+
+Rank 19 | Sample Index: 400 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 283
+  Topic Similarity: 0.824
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.25 -> Constrained 6.85
+    - grammar        : ML 0.00 -> Gated 6.53 -> Constrained 6.13
+    - coherence      : ML 0.00 -> Gated 7.07 -> Constrained 6.67
+  Gates fired: ['gate:low_task_coverage_raw(0.00<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: International sports events are one of the most trendy interactions at any hosting country. Depending on the hoster, the events could represent a virtue or a slip. This dependence is associated with t...
+--------------------------------------------------------------------------------
+
+Rank 20 | Sample Index: 497 | True Band: 8.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 248
+  Topic Similarity: 0.863
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.22 -> Constrained 6.22
+    - lexical        : ML 0.00 -> Gated 7.03 -> Constrained 7.03
+    - grammar        : ML 0.00 -> Gated 6.54 -> Constrained 6.54
+    - coherence      : ML 0.00 -> Gated 6.48 -> Constrained 6.48
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The diagram illustrates the evolution of the horse in terms of their foot structure over a 40 million year period. Overall, the horse's were divided into four stages of development, starting from a pe...
+--------------------------------------------------------------------------------
+
+Rank 21 | Sample Index: 518 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 296
+  Topic Similarity: 0.838
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.07 -> Constrained 6.67
+    - grammar        : ML 0.00 -> Gated 7.01 -> Constrained 6.61
+    - coherence      : ML 0.00 -> Gated 7.07 -> Constrained 6.67
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Couples living together before their weddings was once deemed as a disgrace. However, as our society keeps developing, more and more people start to accept the idea of cohabitation and put it into act...
+--------------------------------------------------------------------------------
+
+Rank 22 | Sample Index: 533 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 209
+  Topic Similarity: 0.856
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.07 -> Constrained 6.07
+    - lexical        : ML 0.00 -> Gated 6.17 -> Constrained 6.17
+    - grammar        : ML 0.00 -> Gated 5.71 -> Constrained 5.71
+    - coherence      : ML 0.00 -> Gated 6.36 -> Constrained 6.36
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: These bar graph and pie chart illustrates the amounts of people in both genders extending the various classes of adult education in 2009. As the bar chart shows the differences of genders of male and ...
+--------------------------------------------------------------------------------
+
+Rank 23 | Sample Index: 534 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 201
+  Topic Similarity: 0.741
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.49 -> Constrained 5.49
+    - lexical        : ML 0.00 -> Gated 6.72 -> Constrained 6.71
+    - grammar        : ML 0.00 -> Gated 5.70 -> Constrained 5.69
+    - coherence      : ML 0.00 -> Gated 6.53 -> Constrained 6.52
+  Gates fired: []
+  Constraints applied: ['penalty:TR_weak→CC-0.01', 'penalty:TR_weak→LR-0.01', 'penalty:TR_weak→GRA-0.01']
+  Essay Clip: At present, there are the call of action for our social movement, and one of them is related to sexual equity. Many countries in Europe or Asia supported the legal marriage in LGBTQs, howere in some r...
+--------------------------------------------------------------------------------
+
+Rank 24 | Sample Index: 660 | True Band: 5.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 404
+  Topic Similarity: 0.800
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 7.14 -> Constrained 7.14
+    - lexical        : ML 0.00 -> Gated 6.47 -> Constrained 6.47
+    - grammar        : ML 0.00 -> Gated 6.59 -> Constrained 6.59
+    - coherence      : ML 0.00 -> Gated 5.90 -> Constrained 5.90
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Nowadays, due to a wide range of education methods and systems, there are a lot of opinion and debates for which being the best orientation for students. Some experts believe that it is good for pupil...
+--------------------------------------------------------------------------------
+
+Rank 25 | Sample Index: 697 | True Band: 8.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 162
+  Topic Similarity: 0.889
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.37 -> Constrained 6.37
+    - lexical        : ML 0.00 -> Gated 6.65 -> Constrained 6.65
+    - grammar        : ML 0.00 -> Gated 6.35 -> Constrained 6.35
+    - coherence      : ML 0.00 -> Gated 6.78 -> Constrained 6.78
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The bar charts compare how long users spent on three categories of telephone calls in Australia from 2001 to 2008. Overall, in spite of minor fluctuations, time spent on local calls was constantly the...
+--------------------------------------------------------------------------------
+
+Rank 26 | Sample Index: 714 | True Band: 5.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 415
+  Topic Similarity: 0.845
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 7.36 -> Constrained 7.36
+    - lexical        : ML 0.00 -> Gated 6.70 -> Constrained 6.70
+    - grammar        : ML 0.00 -> Gated 5.80 -> Constrained 5.80
+    - coherence      : ML 0.00 -> Gated 6.00 -> Constrained 6.00
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: According to COVID-19 event forced many company to change their way of working. One of the most significant transformation is the communication. The online communication becomes a must or inevitable f...
+--------------------------------------------------------------------------------
+
+Rank 27 | Sample Index: 724 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 328
+  Topic Similarity: 0.825
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 6.84 -> Constrained 6.44
+    - grammar        : ML 0.00 -> Gated 7.23 -> Constrained 6.83
+    - coherence      : ML 0.00 -> Gated 7.57 -> Constrained 7.17
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Education is one of the most important topics for childhood development, and music can be very beneficial to children because it helps to sustain creative thinking and improve imagination. Some educat...
+--------------------------------------------------------------------------------
+
+Rank 28 | Sample Index: 733 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 210
+  Topic Similarity: 0.770
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.29 -> Constrained 5.29
+    - lexical        : ML 0.00 -> Gated 6.33 -> Constrained 6.16
+    - grammar        : ML 0.00 -> Gated 6.44 -> Constrained 6.28
+    - coherence      : ML 0.00 -> Gated 6.08 -> Constrained 5.92
+  Gates fired: []
+  Constraints applied: ['penalty:TR_weak→CC-0.17', 'penalty:TR_weak→LR-0.17', 'penalty:TR_weak→GRA-0.17']
+  Essay Clip: From the fact that university is a gate to a better occupation or an upskilling process for graduates that would like to continue their career path in the future. This requires a lot of documents and ...
+--------------------------------------------------------------------------------
+
+Rank 29 | Sample Index: 770 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 351
+  Topic Similarity: 0.815
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 6.48 -> Constrained 6.08
+    - grammar        : ML 0.00 -> Gated 7.19 -> Constrained 6.79
+    - coherence      : ML 0.00 -> Gated 6.95 -> Constrained 6.55
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: To be a part of a modern society people must follow laws that are set in place by the superior authorities. Some agree that if there would be no rules, our society could not function the way it does n...
+--------------------------------------------------------------------------------
+
+Rank 30 | Sample Index: 837 | True Band: 4.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 177
+  Topic Similarity: 0.843
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.70 -> Constrained 5.70
+    - lexical        : ML 0.00 -> Gated 6.24 -> Constrained 6.24
+    - grammar        : ML 0.00 -> Gated 6.23 -> Constrained 6.23
+    - coherence      : ML 0.00 -> Gated 5.29 -> Constrained 5.29
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The following table gives information on the average monthly rainfall in five cities. In the first row of the table, every month of the year is shown, from January to December. In the first column of ...
+--------------------------------------------------------------------------------
+
+Rank 31 | Sample Index: 846 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 252
+  Topic Similarity: 0.877
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 6.97 -> Constrained 6.57
+    - grammar        : ML 0.00 -> Gated 7.11 -> Constrained 6.71
+    - coherence      : ML 0.00 -> Gated 6.99 -> Constrained 6.59
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: There is debatable issue as to whether boxing, a seemingly bloody sport, should be excluded from the modern society. As far as I am concerned, the attempt to remove boxing from the current age is utte...
+--------------------------------------------------------------------------------
+
+Rank 32 | Sample Index: 853 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 158
+  Topic Similarity: 0.770
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.73 -> Constrained 5.73
+    - lexical        : ML 0.00 -> Gated 6.20 -> Constrained 6.20
+    - grammar        : ML 0.00 -> Gated 6.64 -> Constrained 6.64
+    - coherence      : ML 0.00 -> Gated 6.60 -> Constrained 6.60
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The bar chart sheds light on how employment rates of each gender changed from 1995 to 2005 in six nations: Australia, Switzerland, Iceland, Britain, New Zealand and the United States. Overall, there a...
+--------------------------------------------------------------------------------
+
+Rank 33 | Sample Index: 868 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 271
+  Topic Similarity: 0.803
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.06 -> Constrained 6.66
+    - grammar        : ML 0.00 -> Gated 6.95 -> Constrained 6.55
+    - coherence      : ML 0.00 -> Gated 6.52 -> Constrained 6.12
+  Gates fired: ['gate:low_task_coverage_raw(0.00<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: It is believed that it is more advantageous to participate in sports that are deemed pair activities such as football ,whilst a portion of people hold the perception that participating in individual a...
+--------------------------------------------------------------------------------
+
+Rank 34 | Sample Index: 887 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 216
+  Topic Similarity: 0.806
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.25 -> Constrained 6.25
+    - lexical        : ML 0.00 -> Gated 6.32 -> Constrained 6.32
+    - grammar        : ML 0.00 -> Gated 5.85 -> Constrained 5.85
+    - coherence      : ML 0.00 -> Gated 6.81 -> Constrained 6.81
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The table indicates the annual income of secondary/ high school teachers and comparisons in 2009. Overall, it can be seen an increase from starting year and after 15 years in all countries. To go into...
+--------------------------------------------------------------------------------
+
+Rank 35 | Sample Index: 920 | True Band: 8.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 279
+  Topic Similarity: 0.823
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.62 -> Constrained 6.62
+    - lexical        : ML 0.00 -> Gated 6.76 -> Constrained 6.76
+    - grammar        : ML 0.00 -> Gated 6.01 -> Constrained 6.01
+    - coherence      : ML 0.00 -> Gated 6.47 -> Constrained 6.47
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: For centuries, artworks have been titled  'Work of Art' based on their extraordinary qualities. However, some people argue that nowadays, the standards are decreasing and the labelling of substandard ...
+--------------------------------------------------------------------------------
+
+Rank 36 | Sample Index: 973 | True Band: 8.5 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 159
+  Topic Similarity: 0.891
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.70 -> Constrained 6.70
+    - lexical        : ML 0.00 -> Gated 6.50 -> Constrained 6.50
+    - grammar        : ML 0.00 -> Gated 6.95 -> Constrained 6.95
+    - coherence      : ML 0.00 -> Gated 6.84 -> Constrained 6.84
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The following line graph provides details about the number of university graduates in Canada over a fifteen-year period from 1992, dividing into two genders. Overall, it can be inferred from the graph...
+--------------------------------------------------------------------------------
+
+Rank 37 | Sample Index: 1058 | True Band: 5.5 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 276
+  Topic Similarity: 0.892
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 7.63 -> Constrained 7.63
+    - lexical        : ML 0.00 -> Gated 6.37 -> Constrained 6.37
+    - grammar        : ML 0.00 -> Gated 5.67 -> Constrained 5.67
+    - coherence      : ML 0.00 -> Gated 7.01 -> Constrained 7.01
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Jobs such as actors, musicians or athlete earns a lot of money, however, a part of people argued that these kinds of people are overpaid. In my opinion, I disagree with this view and believes that the...
+--------------------------------------------------------------------------------
+
+Rank 38 | Sample Index: 1169 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 232
+  Topic Similarity: 0.777
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.88 -> Constrained 5.88
+    - lexical        : ML 0.00 -> Gated 6.57 -> Constrained 6.57
+    - grammar        : ML 0.00 -> Gated 6.30 -> Constrained 6.30
+    - coherence      : ML 0.00 -> Gated 6.98 -> Constrained 6.98
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The given table presents the detailed amounts of four products that are daily sold in a coffee shop located in an office building. These products include coffee, tea, pastries, and sandwiches. As is s...
+--------------------------------------------------------------------------------
+
+Rank 39 | Sample Index: 1172 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 393
+  Topic Similarity: 0.752
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 7.62 -> Constrained 7.22
+    - grammar        : ML 0.00 -> Gated 6.94 -> Constrained 6.54
+    - coherence      : ML 0.00 -> Gated 6.88 -> Constrained 6.48
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: As we all know, recruitment is a continuous process that has been evolving over the past years. Nowadays, selection of qualified applicants is a tedious job which involves a considerable amount of tim...
+--------------------------------------------------------------------------------
+
+Rank 40 | Sample Index: 1179 | True Band: 7.5 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.5
+  Essay Length (words): 203
+  Topic Similarity: 0.796
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.00 -> Constrained 6.00
+    - lexical        : ML 0.00 -> Gated 5.96 -> Constrained 5.96
+    - grammar        : ML 0.00 -> Gated 6.72 -> Constrained 6.72
+    - coherence      : ML 0.00 -> Gated 6.55 -> Constrained 6.55
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The graphic gives information about the passenger numbers of an Underground Station in London during the day. In general, the number of passengers increasingly rises and rapidly goes down during the d...
+--------------------------------------------------------------------------------
+
+Rank 41 | Sample Index: 1198 | True Band: 6.5 | Pred Band: 5.0 (Before constraint: 5.5) | Error: 1.5
+  Essay Length (words): 270
+  Topic Similarity: 0.818
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 5.54 -> Constrained 5.14
+    - grammar        : ML 0.00 -> Gated 6.21 -> Constrained 5.81
+    - coherence      : ML 0.00 -> Gated 5.92 -> Constrained 5.52
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: Learning about the past may provide advantages and disadvantages, depending on the position we are situate ourselves in life ; Undoubtedly, it has great advantages for the ones who need to progress in...
+--------------------------------------------------------------------------------
+
+Rank 42 | Sample Index: 1270 | True Band: 8.5 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 256
+  Topic Similarity: 0.758
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.13 -> Constrained 6.13
+    - lexical        : ML 0.00 -> Gated 7.37 -> Constrained 7.37
+    - grammar        : ML 0.00 -> Gated 6.92 -> Constrained 6.92
+    - coherence      : ML 0.00 -> Gated 6.91 -> Constrained 6.91
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Recently, there have been significant changes in the family structure and family roles. This essay will illuminate some of these changes and analyse whether such changes are beneficial or detrimental....
+--------------------------------------------------------------------------------
+
+Rank 43 | Sample Index: 1275 | True Band: 5.5 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.5
+  Essay Length (words): 180
+  Topic Similarity: 0.855
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.35 -> Constrained 6.35
+    - lexical        : ML 0.00 -> Gated 6.54 -> Constrained 6.54
+    - grammar        : ML 0.00 -> Gated 6.88 -> Constrained 6.88
+    - coherence      : ML 0.00 -> Gated 6.79 -> Constrained 6.79
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The three pie graphs give information on the spending and resourses' consumption the by the countries of the world in relation with the population's distribution. Overall, different countries' spendin...
+--------------------------------------------------------------------------------
+
+Rank 44 | Sample Index: 1296 | True Band: 9.0 | Pred Band: 7.5 (Before constraint: 8.0) | Error: 1.5
+  Essay Length (words): 399
+  Topic Similarity: 0.839
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 8.10 -> Constrained 7.70
+    - grammar        : ML 0.00 -> Gated 8.54 -> Constrained 8.14
+    - coherence      : ML 0.00 -> Gated 7.50 -> Constrained 7.10
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: It is indeed true that digital resources today far outstrip what can be put and stored in print books. Almost any kind of book can now be accessed digitally and those that can’t be will soon be change...
+--------------------------------------------------------------------------------
+
+Rank 45 | Sample Index: 1313 | True Band: 9.0 | Pred Band: 7.5 (Before constraint: 8.0) | Error: 1.5
+  Essay Length (words): 320
+  Topic Similarity: 0.850
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.00 -> Constrained 5.00
+    - lexical        : ML 0.00 -> Gated 8.08 -> Constrained 7.68
+    - grammar        : ML 0.00 -> Gated 8.36 -> Constrained 7.96
+    - coherence      : ML 0.00 -> Gated 7.56 -> Constrained 7.16
+  Gates fired: ['gate:low_task_coverage_raw(0.20<0.35)->TR_cap_5.0']
+  Constraints applied: ['penalty:TR_weak→CC-0.40', 'penalty:TR_weak→LR-0.40', 'penalty:TR_weak→GRA-0.40']
+  Essay Clip: In recent years, computer use around the world has increased drastically. As a result technological equipment is used increasingly in schools around the world. Many people question therefore whether s...
+--------------------------------------------------------------------------------
+
+Rank 46 | Sample Index: 1431 | True Band: 5.0 | Pred Band: 6.5 (Before constraint: 6.5) | Error: 1.5
+  Essay Length (words): 318
+  Topic Similarity: 0.757
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.79 -> Constrained 6.79
+    - lexical        : ML 0.00 -> Gated 6.38 -> Constrained 6.38
+    - grammar        : ML 0.00 -> Gated 7.15 -> Constrained 7.15
+    - coherence      : ML 0.00 -> Gated 5.87 -> Constrained 5.87
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: Serious crimes need capital punishment so that the are unable to get involved in the crime in the future. However, they want to stop the acts of violation in the future then it would be better to .Ove...
+--------------------------------------------------------------------------------
+
+Rank 47 | Sample Index: 3 | True Band: 5.0 | Pred Band: 6.0 (Before constraint: 6.0) | Error: 1.0
+  Essay Length (words): 150
+  Topic Similarity: 0.897
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 5.88 -> Constrained 5.88
+    - lexical        : ML 0.00 -> Gated 5.23 -> Constrained 5.23
+    - grammar        : ML 0.00 -> Gated 6.21 -> Constrained 6.21
+    - coherence      : ML 0.00 -> Gated 6.33 -> Constrained 6.33
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The left chart shows the population change happened in Austrilia from 1995 to 2010. In 1995, half of the people born in australia are from cities, 30% from rural areas and only 20% are from towns. For...
+--------------------------------------------------------------------------------
+
+Rank 48 | Sample Index: 9 | True Band: 8.0 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.0
+  Essay Length (words): 152
+  Topic Similarity: 0.855
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.50 -> Constrained 6.50
+    - lexical        : ML 0.00 -> Gated 6.14 -> Constrained 6.14
+    - grammar        : ML 0.00 -> Gated 6.71 -> Constrained 6.71
+    - coherence      : ML 0.00 -> Gated 7.14 -> Constrained 7.14
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The line graph illustrates the number of overseas tourists to three different areas in a European country (coast, mountains, lakes) from 1987 to 2007 Overall, it can be seen that the number of visitor...
+--------------------------------------------------------------------------------
+
+Rank 49 | Sample Index: 10 | True Band: 9.0 | Pred Band: 8.0 (Before constraint: 8.0) | Error: 1.0
+  Essay Length (words): 270
+  Topic Similarity: 0.893
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 8.00 -> Constrained 8.00
+    - lexical        : ML 0.00 -> Gated 6.50 -> Constrained 6.50
+    - grammar        : ML 0.00 -> Gated 7.09 -> Constrained 7.09
+    - coherence      : ML 0.00 -> Gated 7.29 -> Constrained 7.29
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: International sports events require the most well-trained athletes for each country, in order to achieve this goal countries make an effort to build infrastructure designed to train top athletes. Alth...
+--------------------------------------------------------------------------------
+
+Rank 50 | Sample Index: 19 | True Band: 8.0 | Pred Band: 7.0 (Before constraint: 7.0) | Error: 1.0
+  Essay Length (words): 166
+  Topic Similarity: 0.818
+  Gaming Penalty: 0.000
+  Criterion Sub-scores (ML Predicted -> Gated -> Constrained):
+    - task_response  : ML 0.00 -> Gated 6.28 -> Constrained 6.28
+    - lexical        : ML 0.00 -> Gated 6.72 -> Constrained 6.72
+    - grammar        : ML 0.00 -> Gated 7.05 -> Constrained 7.05
+    - coherence      : ML 0.00 -> Gated 6.82 -> Constrained 6.82
+  Gates fired: []
+  Constraints applied: []
+  Essay Clip: The two diagrams compare the proportion of time spent by adult workers in a specific country on different activities over a 50-year period, from 1958 to 2008. Overall, it can clearly be seen that in 1...
+--------------------------------------------------------------------------------
+

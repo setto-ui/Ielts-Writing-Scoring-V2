@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Environment / IDE
+.env
+.vscode/
+.idea/
+
+# Testing & Logs
+*.log
+.system_generated/
+*.tmp
+tests/
+
+# Caches that will be rebuilt or are redundant in container
+data/cache_features_*.npz
+data/extracted_features_cache.pkl

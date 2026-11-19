@@ -1,0 +1,62 @@
+{
+  "val": {
+    "overall": {
+      "task_response": {},
+      "coherence": {},
+      "lexical": {},
+      "grammar": {}
+    },
+    "by_group": {
+      "task_response": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "coherence": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "lexical": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "grammar": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      }
+    }
+  },
+  "test": {
+    "overall": {
+      "task_response": {},
+      "coherence": {},
+      "lexical": {},
+      "grammar": {}
+    },
+    "by_group": {
+      "task_response": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "coherence": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "lexical": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      },
+      "grammar": {
+        "Low": {},
+        "Mid": {},
+        "High": {}
+      }
+    }
+  }
+}
