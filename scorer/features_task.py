@@ -252,6 +252,58 @@ def _prompt_keyword_overlap(essay: str, prompt: str) -> float:
     return round(len(matched) / len(prompt_words), 4)
 
 
+def _detect_tangential_drift(essay: str, prompt: str) -> float:
+    """Detect whether the essay drifts into a tangential / off-topic subject.
+    
+    Checks if the body paragraphs address the core specific subject of the prompt
+    rather than just generic context words (e.g. 'university', 'students', 'people').
+    Returns 1.0 if tangential drift is detected, else 0.0.
+    """
+    if not prompt or not essay:
+        return 0.0
+    
+    # Body paragraphs
+    paras = [p.strip() for p in essay.split("\n\n") if len(p.strip()) > 30]
+    body_paras = paras[1:-1] if len(paras) >= 3 else paras
+    body_text = " ".join(body_paras).lower()
+    body_words = set(_WORD_RE.findall(body_text))
+    
+    # Extract specific subject nouns from prompt, excluding generic context words
+    prompt_words = set(_WORD_RE.findall(prompt.lower())) - _STOPWORDS_TASK
+    generic_words = {
+        "people", "think", "believe", "agree", "disagree", "opinion", "discuss",
+        "views", "write", "least", "words", "suggested", "time", "university",
+        "students", "will", "future", "world", "society", "others", "both",
+        "such", "like", "only", "give", "many", "good", "well", "make"
+    }
+    prompt_specific = {w for w in prompt_words if len(w) > 3 and w not in generic_words}
+    
+    # Common academic & domain synonyms
+    domain_synonyms = {
+        "subject": {"discipline", "disciplines", "major", "majors", "field", "fields", "course", "courses", "curriculum", "curricula", "degree", "degrees", "humanities", "arts"},
+        "subjects": {"discipline", "disciplines", "major", "majors", "field", "fields", "course", "courses", "curriculum", "curricula", "degree", "degrees", "humanities", "arts"},
+        "science": {"stem", "physics", "chemistry", "biology", "mathematics", "engineering", "sciences"},
+        "technology": {"digital", "computing", "software", "artificial", "computational", "technologies", "it"},
+    }
+    
+    # Check direct specific prompt word presence in body
+    overlap = prompt_specific & body_words
+    
+    # Check domain synonyms
+    synonym_hits = set()
+    for k, syn_set in domain_synonyms.items():
+        if k in prompt_specific:
+            synonym_hits |= (syn_set & body_words)
+                
+    total_matches = len(overlap | synonym_hits)
+    
+    # If specific prompt entities exist but body paragraphs have 0 matches,
+    # the candidate has drifted off-topic into a tangential subject.
+    if len(prompt_specific) > 0 and total_matches == 0:
+        return 1.0
+    return 0.0
+
+
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
@@ -266,7 +318,7 @@ def extract_task_features(essay: str, prompt: str) -> dict[str, Any]:
         Dictionary with task_type, task_coverage_score,
         causality_count, example_count, causal_relation_density, example_density,
         claim_support_ratio, task2_length_shortfall, explanation_chain_ratio,
-        argument_depth_score, prompt_keyword_overlap.
+        argument_depth_score, prompt_keyword_overlap, is_tangential_drift.
     """
     if not essay or not essay.strip():
         return {
@@ -281,17 +333,20 @@ def extract_task_features(essay: str, prompt: str) -> dict[str, Any]:
             "explanation_chain_ratio": 0.0,
             "argument_depth_score": 0.0,
             "prompt_keyword_overlap": 0.0,
+            "is_tangential_drift": 0.0,
         }
 
     task_type = _detect_task_type(prompt)
     coverage = _task_coverage(essay, task_type)
     depth = _argument_depth(essay)
     keyword_overlap = _prompt_keyword_overlap(essay, prompt)
+    tangential_drift = _detect_tangential_drift(essay, prompt)
 
     return {
         "task_type": task_type,
         "task_coverage_score": coverage,
         "prompt_keyword_overlap": keyword_overlap,
+        "is_tangential_drift": tangential_drift,
         **depth,
     }
 

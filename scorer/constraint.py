@@ -9,6 +9,7 @@ Every constraint only *caps* (lowers) scores — it never inflates them.
 """
 
 from __future__ import annotations
+import numpy as np
 
 # Band-score clipping range.
 _BAND_MIN: float = 4.0
@@ -66,13 +67,18 @@ def apply_constraints(
         s["task_response"] -= penalty
         applied.append(f"penalty:LR_weak→TR-{penalty:.2f}")
 
-    # ---- Rule 4: off-topic → TR penalty ----
+    # ---- Rule 4: off-topic / tangential response → TR penalty ----
     topic_sim = features.get("topic_similarity", 1.0)
-    if topic_sim < 0.40:
-        # Instead of hard cap at 4.5, penalise proportionally if similarity is low
-        penalty = (0.40 - topic_sim) * 10.0 * alpha
+    is_tangential = features.get("is_tangential_drift", 0.0)
+    if is_tangential > 0.5:
+        # Confirmed tangential / off-topic response in IELTS (TR capped at 4.5, CC capped at 5.5)
+        s["task_response"] = min(s.get("task_response", _BAND_MAX), 4.5)
+        s["coherence"] = min(s.get("coherence", _BAND_MAX), 5.5)
+        applied.append("penalty:tangential_topic_drift→TR_cap_4.5,CC_cap_5.5")
+    elif topic_sim < 0.60:
+        penalty = (0.60 - topic_sim) * 10.0 * alpha
         s["task_response"] -= penalty
-        applied.append(f"penalty:off_topic→TR-{penalty:.2f}")
+        applied.append(f"penalty:low_topic_sim({topic_sim:.3f}<0.60)→TR-{penalty:.2f}")
 
     # ---- Rule 5: gaming penalty ----
     gaming_penalty = features.get("gaming_penalty", 0.0)
@@ -85,13 +91,52 @@ def apply_constraints(
             f"penalty:gaming({gaming_penalty:.2f})→TR-{tr_reduction:.2f},LR-{lr_reduction:.2f}"
         )
 
+    # ---- Rule 6: Lexical Register Ceiling (IELTS Band 5/6 descriptors) ----
+    r_rare = features.get("rare_word_ratio", 0.0)
+    r_awl = features.get("awl_ratio", 0.0)
+    r_acad = features.get("academic_word_ratio", 0.0)
+    if r_rare < 0.035 and (r_awl < 0.015 or r_acad < 0.015):
+        # Purely elementary/childish vocabulary (Band 5.0 ceiling for LR)
+        s["lexical"] = min(s.get("lexical", _BAND_MAX), 5.0)
+        applied.append(f"ceiling:elementary_lexis(rare={r_rare:.3f},awl={r_awl:.3f})→LR_cap_5.0")
+    elif r_rare < 0.060 and (r_awl < 0.020 or r_acad < 0.020):
+        # Limited vocabulary range (Band 5.5 ceiling for LR)
+        s["lexical"] = min(s.get("lexical", _BAND_MAX), 5.5)
+        applied.append(f"ceiling:limited_lexis(rare={r_rare:.3f},awl={r_awl:.3f})→LR_cap_5.5")
+
+    # ---- Rule 7: Grammatical Range Ceiling (IELTS Band 5/6 descriptors) ----
+    sent_var = features.get("sent_length_variance", 0.0)
+    avg_sl = features.get("avg_sentence_length", 0.0)
+    complex_cr = features.get("complex_clause_ratio", 0.0)
+    if sent_var < 35.0 and avg_sl < 16.0 and complex_cr < 1.0:
+        # Monotonous simple sentence structures without variation (Band 5.0 ceiling for GRA)
+        s["grammar"] = min(s.get("grammar", _BAND_MAX), 5.0)
+        applied.append(f"ceiling:simple_syntax_range(var={sent_var:.1f},len={avg_sl:.1f})→GRA_cap_5.0")
+    elif sent_var < 45.0 and avg_sl < 18.0 and complex_cr < 1.1:
+        # Limited sentence range (Band 5.5 ceiling for GRA)
+        s["grammar"] = min(s.get("grammar", _BAND_MAX), 5.5)
+        applied.append(f"ceiling:limited_syntax_range(var={sent_var:.1f},len={avg_sl:.1f})→GRA_cap_5.5")
+
+    # ---- Rule 8: Task Response Argument Depth Ceiling ----
+    arg_depth = features.get("argument_depth_score", 0.0)
+    if arg_depth < 0.20:
+        # Minimal argument development / superficial claims
+        s["task_response"] = min(s.get("task_response", _BAND_MAX), 5.0)
+        applied.append(f"ceiling:minimal_argument_depth({arg_depth:.2f}<0.20)→TR_cap_5.0")
+    elif arg_depth < 0.25:
+        s["task_response"] = min(s.get("task_response", _BAND_MAX), 5.5)
+        applied.append(f"ceiling:shallow_argument_depth({arg_depth:.2f}<0.25)→TR_cap_5.5")
+
     # ---- Overall propagation ----
     if "overall" in s:
         sub_keys = ["task_response", "lexical", "grammar", "coherence"]
         initial_sub_sum = sum(float(scores[k]) for k in sub_keys)
         final_sub_sum = sum(s[k] for k in sub_keys)
         reduction = (initial_sub_sum - final_sub_sum) / 4.0
-        s["overall"] -= reduction
+        
+        # Cambridge IELTS official rule: overall must be anchored to mean of 4 criteria
+        cambridge_sub_mean = float(np.mean([s[k] for k in sub_keys]))
+        s["overall"] = max(_BAND_MIN, min(s["overall"] - reduction, cambridge_sub_mean + 0.25))
 
     # ---- Final clipping ----
     s = {k: max(_BAND_MIN, min(_BAND_MAX, v)) for k, v in s.items()}

@@ -101,6 +101,7 @@ def extract_all_features(essay: str, prompt: str) -> dict:
     merged["prompt_keyword_overlap"] = task_feat.get("prompt_keyword_overlap", 0.0)
     merged["connectors_per_sentence"] = antigaming_feat.get("connectors_per_sentence", 0.0)
     merged["gaming_penalty"] = antigaming_feat.get("gaming_penalty", 0.0)
+    merged["is_tangential_drift"] = task_feat.get("is_tangential_drift", 0.0)
     # Phase 6J-B Lexical features
     merged["lexical_diversity"] = lexical_feat.get("lexical_diversity", 0.0)
     merged["lexical_density"] = lexical_feat.get("lexical_density", 0.0)
