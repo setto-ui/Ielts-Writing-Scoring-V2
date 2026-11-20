@@ -29,6 +29,7 @@ from scorer.diagnostic_engine import analyze as analyze_diagnostic
 from scorer.explainer import explain
 from scorer.rewrite import rewrite_essay
 from scorer.logger import build_pipeline_log
+from scorer.tutor_engine import diagnose_errors, generate_band_8_rewrite
 
 app = Flask(__name__)
 
@@ -196,6 +197,8 @@ def evaluate():
     )
 
     rewrite_result = rewrite_essay(essay, diagnostic_result)
+    tutor_diagnosis = diagnose_errors(essay, prompt)
+    model_rewrite = generate_band_8_rewrite(essay, prompt, tutor_diagnosis)
     keyword_analysis = compute_keyword_analysis(prompt, essay)
     confidence = compute_confidence_stats(overall_band)
 
@@ -220,6 +223,11 @@ def evaluate():
             "weaknesses": feedback.get("weaknesses", []),
             "actionable_tips": feedback.get("actionable_tips", []),
             "detailed_critique": feedback.get("summary", ""),
+        },
+        "tutor_analysis": {
+            "error_diagnosis": tutor_diagnosis,
+            "model_rewrite_band_8": model_rewrite["model_essay"],
+            "key_upgrades": model_rewrite["key_upgrades"]
         },
         "rewrite_suggestions": rewrite_result,
         "meta": {
